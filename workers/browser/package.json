@@ -1,0 +1,20 @@
+{
+  "name": "@gavryn/browser-worker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test-concurrency=1 --test src/**/*.test.js",
+    "test:coverage": "c8 --check-coverage --lines 100 --branches 100 --functions 100 --statements 100 npm test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.49.0"
+  },
+  "devDependencies": {
+    "c8": "^8.0.0",
+    "supertest": "^6.3.0"
+  }
+}

@@ -1,0 +1,40 @@
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+tmp/
+
+# Node/Vite artifacts
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+
+# Editor/OS temp files
+*.swp
+*.swo
+*.tmp
+
+# worker artifacts
+workers/browser/artifacts

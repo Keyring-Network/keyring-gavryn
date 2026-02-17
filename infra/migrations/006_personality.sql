@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS personality_settings (
+  id INT PRIMARY KEY DEFAULT 1,
+  content TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL
+);
