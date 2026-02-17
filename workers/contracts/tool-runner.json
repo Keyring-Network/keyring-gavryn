@@ -1,0 +1,22 @@
+{
+  "name": "tool-runner.execute",
+  "request": {
+    "run_id": "uuid",
+    "invocation_id": "uuid",
+    "tool_name": "string",
+    "input": "object",
+    "timeout_ms": "number"
+  },
+  "response": {
+    "status": "completed | failed",
+    "output": "object",
+    "artifacts": [
+      {
+        "artifact_id": "uuid",
+        "type": "string",
+        "uri": "string",
+        "content_type": "string"
+      }
+    ]
+  }
+}
